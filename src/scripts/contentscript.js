@@ -18,7 +18,6 @@ const runScript = () => {
 function checkSkipButton() {
   setInterval(() => {
 
-    console.log(storage)
 
     const skipCreditsButton = document.querySelector('.skip-credits a');
     if (skipCreditsButton) {
