@@ -1,75 +1,12 @@
 <div align="center">
   <h1>
-    Extension Boilerplate  
+    Netflix Skipper  
   </h1>
 
   <p>
-    <strong>A foundation for creating browser extensions for Chrome, Opera & Firefox.</strong>
+    <strong>Skip opening credits automatically on Netflix..</strong>
   </p>
 </div>
-
-Now that Firefox supports WebExtensions, it has become a lot easier to build browser extensions/addons for multiple browsers without duplicating the codebase. This project serves as a sensible starting point to help you get started.
-
-<div align="center">
-  <a href="https://www.emailthis.me/open-source/extension-boilerplate">
-    <img src="./resources/chrome-promo/large.png" alt="Extension Boilerplate">
-  </a>
-</div>
-
-I have extracted this from the browser extensions that I built for my side-project, [Email This](https://www.emailthis.me).
-
-> Side note: Do check out [**Email This**](https://www.emailthis.me). It is a simpler alternative to bookmarking tools like Pocket, Readability & Instapaper. Email This will remove ads & distractions from an article and send you a nice email with just the text/images. No need to install any additional applications or login to another app just to access your bookmarks. 
-The Chrome Extensions is available [on the Chrome Web Store](https://chrome.google.com/webstore/detail/email-this/lgblkllcjgihfnlefhnnpppndbbjallh).
-
-
-## Features
-
-<dl>
-  <dt>Write once and deploy to Chrome, Opera & Firefox</dt>
-  <dd>
-    Based on WebExtensions. It also includes a tiny polyfill to bring uniformity to the APIs exposed by different browsers.
-  </dd>
-</dl>
-
-<dl>
-  <dt>Live-reload</dt>
-  <dd>
-    Your changes to CSS, HTML & JS files will be relayed instantly without having to manually reload the extension. This ends up saving a lot of time and improving the developer experience.
-  </dd>
-</dl>
-
-<dl>
-  <dt>Sensible starting point</dt>
-  <dd>
-    This comes with a gulp based workflow that converts modern <strong>ES6</strong> JavaScript and <strong>SCSS</strong> to JS/CSS. 
-    Scripts are transpiled using Babel and bundled using Browserify.
-    Sourcemaps are available for both JS and SCSS.
-  </dd>
-</dl>
-
-<dl>
-  <dt>Sketch (.sketch) assets for icons and promo images</dt>
-  <dd>
-    A .sketch file is included in the resources directory. This has all the icons and promo images that will be needed while uploading the extensions to the app stores.
-  </dd>
-</dl>
-
-<dl>
-  <dt>Easily configurable and extendable</dt>
-  <dd>
-    The gulpfile is easily understandable and configurable. If you want to add additional tasks or remove un-used ones, you can easily tweak that file to suit your needs.
-  </dd>
-</dl>
-
-<dl>
-  <dt>Platform specific & Environment specific variables.</dt>
-  <dd>
-    You might need to specify different data variables based on your environment. For example, you might want to use a localhost API endpoint during development and a production API endpoint once the extension is submitted to the appstore. You can specify such data in the json files inside `config` directory.
-
-    You can also set custom data variables based on the platform (different variable for Chrome, FF, Opera).
-  </dd>
-</dl>
-
 
 
 ## Installation
