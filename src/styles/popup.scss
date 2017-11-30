@@ -86,3 +86,14 @@ footer {
   outline: none;
   font-size: 1em;
 }
+
+.stop{
+  width: 100%;
+  display: block;
+  padding: 3px 4px 3px 8px;
+  border-radius: 5px;
+}
+.stop:hover {
+  -webkit-transition: all 0.3s ease-out;
+  background: #F2F2F2;
+}

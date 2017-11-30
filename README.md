@@ -77,11 +77,6 @@ The Chrome Extensions is available [on the Chrome Web Store](https://chrome.goog
 2. Run `npm install`
 3. Run `npm run build`
 
-Alternately, if you want to try out the sample extension, here are the download links. After you download it, unzip the file and load it in your browser using the steps mentioned below.
- - [**Download Chrome Extension**](https://github.com/EmailThis/extension-boilerplate/releases/download/v1.0/chrome.zip)
- - [**Download Opera Extension**](https://github.com/EmailThis/extension-boilerplate/releases/download/v1.0/opera.zip)
- - [**Download Firefox Extension**](https://github.com/EmailThis/extension-boilerplate/releases/download/v1.0/firefox.zip)
-
 
 ##### Load the extension in Chrome & Opera
 1. Open Chrome/Opera browser and navigate to chrome://extensions
@@ -105,18 +100,3 @@ The following tasks can be used when you want to start developing the extension 
 ## Packaging
 Run `npm run dist` to create a zipped, production-ready extension for each browser. You can then upload that to the appstore.
 
-
-## TODO
-- [ ] Add support for Safari
-- [x] Add Firefox & Opera Promo images
-- [x] Add sample screenshot templates
-- [ ] Write a guide for using config variables & JS preprocessor
-
-
------------
-This project is licensed under the MIT license. 
-
-If you have any questions or comments, please create a new issue. I'd be happy to hear your thoughts.
-
-
-Bharani, [Email This](https://www.emailthis.me)
