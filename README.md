@@ -7,7 +7,8 @@
     <strong>Tired of skipping the intro when you're doing that marathon? Your problems are over, netflix skipper will do it for you automatically.</strong>
   </p>
 
-  <a href="https://chrome.google.com/webstore/detail/netflix-skipper/llindiogmjfoecgpomeikmlfkjlknjef" target="_blank">Chrome Web Store</a>
+  <a href="https://chrome.google.com/webstore/detail/netflix-skipper/llindiogmjfoecgpomeikmlfkjlknjef" >Chrome Web Store</a>
+  <a href="https://addons.mozilla.org/en-US/firefox/addon/netflix-skipper/" >Firefox Add-ons</a>
 </div>
 
 
