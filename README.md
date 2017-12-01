@@ -8,6 +8,7 @@
   </p>
 
   <a href="https://chrome.google.com/webstore/detail/netflix-skipper/llindiogmjfoecgpomeikmlfkjlknjef" >Chrome Web Store</a>
+  <br>
   <a href="https://addons.mozilla.org/en-US/firefox/addon/netflix-skipper/" >Firefox Add-ons</a>
 </div>
 
