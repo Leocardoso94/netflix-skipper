@@ -4,7 +4,7 @@
   </h1>
 
   <p>
-    <strong>Skip opening credits automatically on Netflix..</strong>
+    <strong>Tired of skipping the intro when you're doing that marathon? Your problems are over, netflix skipper will do it for you automatically.</strong>
   </p>
 </div>
 

@@ -5,12 +5,9 @@ import storage from "./utils/storage";
 const runScript = () => {
   const url = document.location.href;
 
-  if (!url || !url.match('netflix.com/watch/')) return;
+  if (!url || !url.match('netflix.com')) return;
 
-
-  storage.get('checkedStop', function (resp) {
-    if (!resp.checkedStop) checkSkipButton();
-  });
+  checkSkipButton();
 
 }
 
@@ -18,11 +15,15 @@ const runScript = () => {
 function checkSkipButton() {
   setInterval(() => {
 
-
-    const skipCreditsButton = document.querySelector('.skip-credits a');
-    if (skipCreditsButton) {
-      skipCreditsButton.click();
-    }
+    storage.get('checkedStop', function (resp) {
+      
+      if (!resp.checkedStop) {
+        const skipCreditsButton = document.querySelector('.skip-credits a');
+        if (skipCreditsButton) {
+          skipCreditsButton.click();
+        }
+      }
+    });
 
   }, 3000)
 }
