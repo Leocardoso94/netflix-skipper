@@ -1,16 +1,29 @@
 import ext from "./utils/ext";
 import storage from "./utils/storage";
 
-const checkBox = document.getElementById('stop');
+const stopSkipIntroCheckBox = document.getElementById('stop-skip-intro');
 
 
-storage.get('checkedStop', function (resp) {
-    checkBox.checked = resp.checkedStop;
+storage.get('checkedStopSkipIntro', function (resp) {
+    stopSkipIntroCheckBox.checked = resp.checkedStopSkipIntro;
 });
 
 
-checkBox.addEventListener('click', () => {
-    storage.set({ checkedStop: checkBox.checked }, function () {
+stopSkipIntroCheckBox.addEventListener('click', () => {
+    storage.set({ checkedStopSkipIntro: stopSkipIntroCheckBox.checked }, function () {
 
     });
-})
+});
+const stopSkipWatchNextCheckBox = document.getElementById('stop-skip-watch-next');
+
+
+storage.get('checkedStopWatchNext', function (resp) {
+    stopSkipWatchNextCheckBox.checked = resp.checkedStopWatchNext;
+});
+
+
+stopSkipWatchNextCheckBox.addEventListener('click', () => {
+    storage.set({ checkedStopWatchNext: stopSkipWatchNextCheckBox.checked }, function () {
+
+    });
+});

@@ -15,13 +15,21 @@ const runScript = () => {
 function checkSkipButton() {
   setInterval(() => {
 
-    storage.get('checkedStop', function (resp) {
-      
-      if (!resp.checkedStop) {
+    storage.get('checkedStopSkipIntro', function (resp) {
+
+      if (!resp.checkedStopSkipIntro) {
         const skipCreditsButton = document.querySelector('.skip-credits a');
-        if (skipCreditsButton) {
-          skipCreditsButton.click();
-        }
+        if (skipCreditsButton) skipCreditsButton.click();
+
+      }
+    });
+
+    storage.get('checkedStopWatchNext', function (resp) {
+
+      if (!resp.checkedStopWatchNext) {
+        const watchNextButton = document.querySelector('.WatchNext-still-hover-container');
+        if (watchNextButton) watchNextButton.click();
+
       }
     });
 
