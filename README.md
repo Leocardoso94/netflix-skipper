@@ -4,7 +4,7 @@
   </h1>
 
   <p>
-    <strong>Tired of skipping the intro when you're doing that marathon? Your problems are over, netflix skipper will do it for you automatically.</strong>
+    <strong>Tired of skipping the intro or wait 15 secods to the next episode? Your problems are over, netflix skipper will do it for you automatically.</strong>
   </p>
 
   <a href="https://chrome.google.com/webstore/detail/netflix-skipper/llindiogmjfoecgpomeikmlfkjlknjef" >Chrome Web Store</a>
